@@ -22,7 +22,7 @@ class CreateToursTable extends Migration
             $table->string('room-type', 50);
             $table->tinyInteger('nights');
             $table->boolean('all_inclusive');
-            $table->float('price_per_night', 7,2);
+            $table->float('price_per_night_euro', 7,2);
             $table->timestamps();
         });
     }
